@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA830C01C196B2C000A5D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA830BF1C196B2C000A5D0D /* AppDelegate.swift */; };
+		FAA830C21C196B2C000A5D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA830C11C196B2C000A5D0D /* ViewController.swift */; };
+		FAA830C51C196B2C000A5D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA830C31C196B2C000A5D0D /* Main.storyboard */; };
+		FAA830C71C196B2C000A5D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA830C61C196B2C000A5D0D /* Assets.xcassets */; };
+		FAA830CA1C196B2C000A5D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA830C81C196B2C000A5D0D /* LaunchScreen.storyboard */; };
+		FAA830D51C196B2C000A5D0D /* PrimeCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA830D41C196B2C000A5D0D /* PrimeCheckerTests.swift */; };
+		FAA830E01C196B2C000A5D0D /* PrimeCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA830DF1C196B2C000A5D0D /* PrimeCheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA830D11C196B2C000A5D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA830B41C196B2C000A5D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA830BB1C196B2C000A5D0D;
+			remoteInfo = PrimeChecker;
+		};
+		FAA830DC1C196B2C000A5D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA830B41C196B2C000A5D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA830BB1C196B2C000A5D0D;
+			remoteInfo = PrimeChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA830BC1C196B2C000A5D0D /* PrimeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA830BF1C196B2C000A5D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA830C11C196B2C000A5D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA830C41C196B2C000A5D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA830C61C196B2C000A5D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA830C91C196B2C000A5D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA830CB1C196B2C000A5D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA830D01C196B2C000A5D0D /* PrimeCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA830D41C196B2C000A5D0D /* PrimeCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckerTests.swift; sourceTree = "<group>"; };
+		FAA830D61C196B2C000A5D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA830DB1C196B2C000A5D0D /* PrimeCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA830DF1C196B2C000A5D0D /* PrimeCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckerUITests.swift; sourceTree = "<group>"; };
+		FAA830E11C196B2C000A5D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA830B91C196B2C000A5D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA830CD1C196B2C000A5D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA830D81C196B2C000A5D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA830B31C196B2C000A5D0D = {
+			isa = PBXGroup;
+			children = (
+				FAA830BE1C196B2C000A5D0D /* PrimeChecker */,
+				FAA830D31C196B2C000A5D0D /* PrimeCheckerTests */,
+				FAA830DE1C196B2C000A5D0D /* PrimeCheckerUITests */,
+				FAA830BD1C196B2C000A5D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA830BD1C196B2C000A5D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA830BC1C196B2C000A5D0D /* PrimeChecker.app */,
+				FAA830D01C196B2C000A5D0D /* PrimeCheckerTests.xctest */,
+				FAA830DB1C196B2C000A5D0D /* PrimeCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA830BE1C196B2C000A5D0D /* PrimeChecker */ = {
+			isa = PBXGroup;
+			children = (
+				FAA830BF1C196B2C000A5D0D /* AppDelegate.swift */,
+				FAA830C11C196B2C000A5D0D /* ViewController.swift */,
+				FAA830C31C196B2C000A5D0D /* Main.storyboard */,
+				FAA830C61C196B2C000A5D0D /* Assets.xcassets */,
+				FAA830C81C196B2C000A5D0D /* LaunchScreen.storyboard */,
+				FAA830CB1C196B2C000A5D0D /* Info.plist */,
+			);
+			path = PrimeChecker;
+			sourceTree = "<group>";
+		};
+		FAA830D31C196B2C000A5D0D /* PrimeCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA830D41C196B2C000A5D0D /* PrimeCheckerTests.swift */,
+				FAA830D61C196B2C000A5D0D /* Info.plist */,
+			);
+			path = PrimeCheckerTests;
+			sourceTree = "<group>";
+		};
+		FAA830DE1C196B2C000A5D0D /* PrimeCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA830DF1C196B2C000A5D0D /* PrimeCheckerUITests.swift */,
+				FAA830E11C196B2C000A5D0D /* Info.plist */,
+			);
+			path = PrimeCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA830BB1C196B2C000A5D0D /* PrimeChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA830E41C196B2C000A5D0D /* Build configuration list for PBXNativeTarget "PrimeChecker" */;
+			buildPhases = (
+				FAA830B81C196B2C000A5D0D /* Sources */,
+				FAA830B91C196B2C000A5D0D /* Frameworks */,
+				FAA830BA1C196B2C000A5D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeChecker;
+			productName = PrimeChecker;
+			productReference = FAA830BC1C196B2C000A5D0D /* PrimeChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA830CF1C196B2C000A5D0D /* PrimeCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA830E71C196B2C000A5D0D /* Build configuration list for PBXNativeTarget "PrimeCheckerTests" */;
+			buildPhases = (
+				FAA830CC1C196B2C000A5D0D /* Sources */,
+				FAA830CD1C196B2C000A5D0D /* Frameworks */,
+				FAA830CE1C196B2C000A5D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA830D21C196B2C000A5D0D /* PBXTargetDependency */,
+			);
+			name = PrimeCheckerTests;
+			productName = PrimeCheckerTests;
+			productReference = FAA830D01C196B2C000A5D0D /* PrimeCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA830DA1C196B2C000A5D0D /* PrimeCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA830EA1C196B2C000A5D0D /* Build configuration list for PBXNativeTarget "PrimeCheckerUITests" */;
+			buildPhases = (
+				FAA830D71C196B2C000A5D0D /* Sources */,
+				FAA830D81C196B2C000A5D0D /* Frameworks */,
+				FAA830D91C196B2C000A5D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA830DD1C196B2C000A5D0D /* PBXTargetDependency */,
+			);
+			name = PrimeCheckerUITests;
+			productName = PrimeCheckerUITests;
+			productReference = FAA830DB1C196B2C000A5D0D /* PrimeCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA830B41C196B2C000A5D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "diego prats";
+				TargetAttributes = {
+					FAA830BB1C196B2C000A5D0D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FAA830CF1C196B2C000A5D0D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FAA830BB1C196B2C000A5D0D;
+					};
+					FAA830DA1C196B2C000A5D0D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FAA830BB1C196B2C000A5D0D;
+					};
+				};
+			};
+			buildConfigurationList = FAA830B71C196B2C000A5D0D /* Build configuration list for PBXProject "PrimeChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA830B31C196B2C000A5D0D;
+			productRefGroup = FAA830BD1C196B2C000A5D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA830BB1C196B2C000A5D0D /* PrimeChecker */,
+				FAA830CF1C196B2C000A5D0D /* PrimeCheckerTests */,
+				FAA830DA1C196B2C000A5D0D /* PrimeCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA830BA1C196B2C000A5D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA830CA1C196B2C000A5D0D /* LaunchScreen.storyboard in Resources */,
+				FAA830C71C196B2C000A5D0D /* Assets.xcassets in Resources */,
+				FAA830C51C196B2C000A5D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA830CE1C196B2C000A5D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA830D91C196B2C000A5D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA830B81C196B2C000A5D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA830C21C196B2C000A5D0D /* ViewController.swift in Sources */,
+				FAA830C01C196B2C000A5D0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA830CC1C196B2C000A5D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA830D51C196B2C000A5D0D /* PrimeCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA830D71C196B2C000A5D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA830E01C196B2C000A5D0D /* PrimeCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA830D21C196B2C000A5D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA830BB1C196B2C000A5D0D /* PrimeChecker */;
+			targetProxy = FAA830D11C196B2C000A5D0D /* PBXContainerItemProxy */;
+		};
+		FAA830DD1C196B2C000A5D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA830BB1C196B2C000A5D0D /* PrimeChecker */;
+			targetProxy = FAA830DC1C196B2C000A5D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA830C31C196B2C000A5D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA830C41C196B2C000A5D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA830C81C196B2C000A5D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA830C91C196B2C000A5D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA830E21C196B2C000A5D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA830E31C196B2C000A5D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA830E51C196B2C000A5D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dprats.PrimeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA830E61C196B2C000A5D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dprats.PrimeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA830E81C196B2C000A5D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimeCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dprats.PrimeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeChecker.app/PrimeChecker";
+			};
+			name = Debug;
+		};
+		FAA830E91C196B2C000A5D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimeCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dprats.PrimeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeChecker.app/PrimeChecker";
+			};
+			name = Release;
+		};
+		FAA830EB1C196B2C000A5D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrimeCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dprats.PrimeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrimeChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAA830EC1C196B2C000A5D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrimeCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dprats.PrimeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrimeChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA830B71C196B2C000A5D0D /* Build configuration list for PBXProject "PrimeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA830E21C196B2C000A5D0D /* Debug */,
+				FAA830E31C196B2C000A5D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA830E41C196B2C000A5D0D /* Build configuration list for PBXNativeTarget "PrimeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA830E51C196B2C000A5D0D /* Debug */,
+				FAA830E61C196B2C000A5D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA830E71C196B2C000A5D0D /* Build configuration list for PBXNativeTarget "PrimeCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA830E81C196B2C000A5D0D /* Debug */,
+				FAA830E91C196B2C000A5D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA830EA1C196B2C000A5D0D /* Build configuration list for PBXNativeTarget "PrimeCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA830EB1C196B2C000A5D0D /* Debug */,
+				FAA830EC1C196B2C000A5D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA830B41C196B2C000A5D0D /* Project object */;
+}
